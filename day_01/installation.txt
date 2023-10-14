@@ -1,0 +1,3 @@
+Day # 01
+
+- Install VS Code and Python on your Pack
