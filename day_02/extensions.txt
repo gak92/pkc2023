@@ -1,0 +1,18 @@
+
+Extensions for VS Code for Python for Data Science
+
+Following Extension are include in Python Extension Pack by Don Jayamanne: 
+1- Python by Microsoft
+2- IntelliCode by Microsoft
+
+Now Install Extension for Jupyter
+3- Jupyter by Microsoft (It automatically Install Following 4 Extension)
+4- Jupyter Keymap by Microsoft
+5- Jupyter Slide Show by Microsoft
+6- Jupyter Cell Tags by Microsoft
+7- Jupyter Notebook Renderers
+
+8- CodeSnap by adpyke
+9- Markdown All in One by Yu Zhang
+10- Prettier by Prettier
+
