@@ -1,6 +1,7 @@
 # if, else, and elif
 
 your_age = 1
+
 school_age = 5
 
 if your_age == school_age:
