@@ -75,6 +75,24 @@ This is page 2.
 
 * This whole course is [here][Codanics]
 
+# 9. Images and Figures with Links
+
+![Alt text](image.png)
+
+![codanics_logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcodanics.com%2F&psig=AOvVaw2MzGHZeb8pw1xPKlV_rI7s&ust=1697882764943000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjm46qwhIIDFQAAAAAdAAAAABAE)
+
+
+# 10. Adding code or code block
+
+To print string use print `print("Hello")`
+
+```python
+x = 2 + 5
+y = 3 - 2
+z = x + y
+print(z)
+```
+
 
 
 
