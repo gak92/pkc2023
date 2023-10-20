@@ -93,9 +93,31 @@ z = x + y
 print(z)
 ```
 
+# 11. Adding Tables
+
+| species | petal_length | sepal_length |
+| ---- | :----: | :----:|
+| setosa | 4.3 | 5.8 |
+| verginica | 14.3 | 7.2 |
+| versicolor | 7.4 | 8.6 |
+
+# 12. Content
+
+[1- Headings](#1-headings)\
+[2- Block of Words](#2-block-of-words)\
+[3- Line breaks](#3-line-breaks)\
+[4- Combine two things](#4-combine-two-things)\
+[5- Face of text](#5-face-of-text)\
+[6- List](#6-bullet-points--list)\
+[7- Line breaks](#7-line-breaks-or-page-break)\
+[8- Links and Hyperlink](#8-links-and-hyperlinks)\
+[9- Images with links](#9-images-and-figures-with-links)\
+[10- Adding code block](#10-adding-code-or-code-block)\
+[11- Adding tables](#11-adding-tables)
 
 
 
+# 13. Install Extension
 
 
 
