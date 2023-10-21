@@ -1,0 +1,13 @@
+# Dataset website
+# 1- Kaggle
+# 2- Google Data Search
+# 3- Github
+# 4- faostats.com (for agriculture)
+# 5- website data scrapping (wikipedia, twitter)
+# 6- stats
+# 7- NADRA
+# 8- Crime Detection - DNA (forensice)
+# 9- Business - US$ --> stock exchange
+# 10- University database
+
+ 
