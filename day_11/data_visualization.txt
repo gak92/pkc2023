@@ -1,0 +1,27 @@
+Data Visualization
+==============================
+
+data ---> plot
+          |     . .                   Plot/Graph
+ y-axis   |   .       .
+          |     .
+          | .     .
+          |_____________
+              
+              x-axis
+
+
+
+x = food (gram)
+y = weight (kgm)
+
+Plots type:
+  1- Scatter plot (point plot)
+  2- Bar plot
+  3- Box plot
+  4- Line plot
+  5- Histogram
+  6- Bell Curve
+  7- Stack bar plot
+  8- Pie Chart
+  9- Pair plot
