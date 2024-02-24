@@ -12,4 +12,5 @@
             2. IQR Method
             3. Z-score method
    3. Dropping duplicates
-   4. 
+4. Transforming
+   1. Normalize the data (Data Normalization)
