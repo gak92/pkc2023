@@ -18,7 +18,7 @@ year_options = df['year'].unique().tolist()
 year = st.selectbox("Which year would you like to view?", year_options, 0)
 
 # filter data by year
-df = df[df['year'] == year]
+# df = df[df['year'] == year]
 
 # plot data
 fig = px.scatter(df, 
@@ -30,7 +30,11 @@ fig = px.scatter(df,
                  log_x=True, 
                  size_max=60,
                  range_x=[100,100000],
-                 range_y=[25,90])
+                 range_y=[25,90],
+                 animation_frame='year',
+                 animation_group='country')
+
+
 # update fig size
 fig.update_layout(width=800, height=500)
 
