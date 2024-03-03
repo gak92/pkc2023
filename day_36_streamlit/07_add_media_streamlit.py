@@ -7,10 +7,14 @@ st.write('''
 # Add Media Web App
          ''')
 
-# Add Image
-img = Image.open('snow-leopard.jpg')
-st.image(img, caption='Snow Leopard', use_column_width=True)
+# Add Image and slider to control size of image
+st.write('Display Image')
+width = st.slider('Select Image Size', 0, 700, 350)
 
-# Add Video
+img = Image.open('snow-leopard.jpg')
+
+st.image(img, caption='Snow Leopard', width=width)
+
+# Add Video and start after 5 sec
 video_file = open('snow-leopard.mp4', 'rb')
-st.video(video_file)
+st.video(video_file, start_time=5)
