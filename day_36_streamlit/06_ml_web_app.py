@@ -73,6 +73,27 @@ def get_classifier(clf_name, params):
         clf = RandomForestClassifier(n_estimators=params['n_estimators'], max_depth=params['max_depth'], random_state=123)
     return clf
 
+# add check box to show code
+if st.checkbox("show code"):
+    with st.echo():
+        # call get_classifier function
+        clf = get_classifier(classifier_name, params)
+
+        # Split the dataset into training and testing
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=123)
+
+        # Fit the model
+        clf.fit(X_train, y_train)
+
+        # Predict the test set
+        y_pred = clf.predict(X_test)
+
+        # Accuracy of the model
+        acc = accuracy_score(y_test, y_pred)
+        st.write(f'Classifier: {classifier_name}')
+        st.write(f'Accuracy: {acc}')
+
+
 # call get_classifier function
 clf = get_classifier(classifier_name, params)
 
