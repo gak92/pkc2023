@@ -1,6 +1,8 @@
 # import libraries
 import streamlit as st
 import pandas as pd
+import plotly.express as px
+import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
@@ -56,3 +58,17 @@ st.write(iris.target_names[prediction])
 # Display the prediction probability
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+
+# Display the dataset
+st.subheader('Iris Data Set')
+st.write(iris.data) 
+
+# dispaly graph using plotly
+st.subheader('Iris Data Set Plot')
+fig = px.scatter(iris.data, x=0, y=1, color=iris.target)
+st.plotly_chart(fig)
+
+fig2 = px.scatter_3d(iris.data, x=0, y=1, z=2, color=3)
+st.plotly_chart(fig2)
+
+
